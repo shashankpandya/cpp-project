@@ -84,7 +84,3 @@ Minimized Transactions:
 - Uses a greedy matching between the largest creditor and largest debtor.
 - Uses `int` for amounts; very large totals could overflow (consider `long long` if needed).
 - If there is no shared payment mode between a debtor/creditor pair, the settlement is labeled `WorldBank` (intermediary fallback).
-
-## License
-
-No license file is currently included in this repository. If you plan to reuse or distribute this code, consider adding a LICENSE file.
